@@ -1,1 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobel friendly scaling-->
+    <meta name="description" content="'AJW4987 personal website for ECE 382V React HW Task 1: HTML/CSS fundamentals deployed on GitHub Pages."/> <!-- description for search engines -->
 
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="stylesheet.css"> <!-- link to css file --> 
+</head>
+<body>
+    <header class="site-header">
+        <header class="site-header">
+            <div class="header-inner"> <!-- Header layout row (logo/title left, nav right) -->
+                <div class="brand-block"> <!-- Left side brand/title block -->
+                    <p class="site-kicker">Anita Woodford</p> <!-- Small header line -->
+                    <h1 class="site-title">My Portfolio</h1> <!-- Main title -->
+                    <p class="site-subtitle">ECE 382V HW Task 1</p>
+                </div>
+                <nav class="top-nav" aria-label="Primary navigation"> <!-- Top navigation -->
+                    <a class="nav-link is-active" href="#home">HOME</a> <!-- Menu link to HOME section -->
+                    <a class="nav-link" href="#about-section">ABOUT ME</a> <!-- Replaces SHOP, links to About Me section -->
+                    <a class="nav-link" href="#senior-project">SENIOR PROJECT</a> <!-- New menu item -->
+                    <a class="nav-link" href="#current-classes">CURRENT CLASSES</a> <!-- New menu item -->
+                    <a class="nav-link" href="https://coherent-care-e87.notion.site/Anita-Woodford-008e313372e844e391406a292a09fc79" target="_blank" rel="noreferrer">E-PORTFOLIO</a> <!-- Replaces BLOG, external link -->
+                    <a class="nav-link" href="#contact">CONTACT</a> <!-- Menu link to contact/footer -->
+                </nav> <!-- End nav -->
+            </div> <!-- End header-inner -->
+    </header>
+
+<main>
+    <div id="home" class="content-section"> <!-- HOME section target -->
+        <div class="container"> <!-- Width wrapper -->
+            <h2>Welcome</h2> <!-- Section heading -->
+            <p>Welcome to my personal website showcasing my projects and skills. Use the menu to jump to sections.</p> <!-- Intro -->
+        </div> <!-- End container -->
+    </div> <!-- End home -->
+    <div id="about-section" class="content-section"> <!-- req div section + req id selector-->
+        <div class="container"><!-- consistent width wrapper -->
+            <h2>About Me</h2>
+            <p> <!-- Paragraph Start -->  I am a motivated, detail-oriented learner who has built a strong technical foundation through my Bachelor of Science in Software Engineering at Brigham Young University–Idaho, where I graduated with a 3.963 GPA and led an embedded IoT thermostat senior project using Arduino, C++, sensors, and cloud integration. My background combines technical problem-solving with years of professional experience in administrative and accounting roles at organizations such as the University of Texas at Austin and Burks Reprographics, which strengthened my skills in organization, documentation, data accuracy, and collaboration. After dedicating many years as a stay-at-home mother since 2004, I returned to advanced study and am currently pursuing a Master’s degree in Electrical and Computer Engineering with a focus on Software Engineering at the University of Texas at Austin. Alongside my studies, I serve as a Service Missionary for The Church of Jesus Christ of Latter-day Saints, where I facilitate BYU-Idaho Pathway classes, reflecting my commitment to mentorship, leadership, and lifelong learning.</p>
+
+            <p><!-- Paragraph Start --> I’m currently a graduate student working through web fundamentals so I can build React apps with a strong foundation.   
+            </p>
+        </div>
+    </div>
+
+        <div id="senior-project" class="content-section"> <!-- New section for Senior Project -->
+            <div class="container">
+                <h2>Senior Project</h2>
+                <p>For my senior project, I led a team in developing an embedded IoT thermostat using Arduino and C++. We integrated various sensors to monitor temperature and humidity, and implemented cloud connectivity for remote access and control. This project allowed me to apply my software engineering skills in a practical setting, while also honing my leadership and project management abilities.</p>
+                <p> <!-- Paragraph start -->expand this later with a short feature list and what i personally implemented.
+          </p> <!-- Paragraph end -->
+            </div>
+
+        </div>
+
+        <div id="current-classes" class="content-section"> <!-- New div section -->
+        <div class="container"> <!-- Width wrapper -->
+            <h2>Current Classes</h2> <!-- Section heading -->
+            <ul class="simple-list"> <!-- List for readability -->
+            <li>ECE 382V - Cloud Native App Development</li> <!-- Class item -->
+            <li>ECE 382V - Software Testing</li> <!-- Placeholder item -->
+        </ul> <!-- End list -->
+        </div> <!-- End container -->
+    </div> <!-- End current classes -->
+
+    <div class="content-section">
+        <div class="container">
+            <h2>Links</h2>
+            <p> My Resume / E-Portfolio
+            <a class="external-link" href="https://coherent-care-e87.notion.site/Anita-Woodford-008e313372e844e391406a292a09fc79">E-Portfolio</a>
+            </p>
+            <p>
+                GitHub Repository:
+                <a class="external-link" href="https://github.com/awarbler?tab=repositories">GitHub</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <div class="container">
+            <h2>Image</h2>
+            <figure class="image-card">
+                <img src="images/profile.jpg" alt="Anita Woodford Image"/>
+                <figcaption>Anita Woodford</figcaption>
+            </figure>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2024 Anita Woodford. | Deployed with GitHub Pages. |  University of Texas at Austin. | Graduate Student |All rights reserved.</p>
+    </div>
+    <footer>
+</body>
+</html>
